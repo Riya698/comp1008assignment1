@@ -13,6 +13,7 @@ public class Address {
         province = this.setprovince(province);
     }
 
+    //setter methods
     public String setCity(String City) {
         this.City = City;
         return null;
@@ -32,6 +33,7 @@ public class Address {
         return province;
     }
 
+    //getter methods
     public String getstAdd(String stAdd) {
         return null;
     }
